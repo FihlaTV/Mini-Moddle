@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/b111111">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <android.support.constraint.ConstraintLayout
 
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
@@ -50,16 +49,16 @@
                 android:id="@+id/UNIT_1"
                 android:layout_width="150dp"
                 android:layout_height="55dp"
-                android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="11dp"
                 android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
                 android:background="@drawable/imageedit_2_7061733275"
                 android:backgroundTint="@drawable/imageedit_2_7061733275"
                 android:text="UNIT 1"
                 android:textColor="@color/White"
-                 android:textSize="20sp" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/UNIT_2"

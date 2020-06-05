@@ -31,7 +31,7 @@ public class Google extends MainActivity  {
         Browser.getSettings().setJavaScriptEnabled(true);
 
         Browser.setScrollBarStyle(SCROLLBARS_INSIDE_OVERLAY);
-        Browser.loadUrl("http://www.google.co.in/");
+        Browser.loadUrl("http://www.google.co.co.za/");
 
     }
 }
